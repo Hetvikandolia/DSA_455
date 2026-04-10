@@ -11,23 +11,25 @@ int main(){
     printf("Count frequency\n");
     for (int i = 0; i <size; i++)
     {
+        
         if(n[i]==-1)
             continue;
              int count=1;
+             int max=count;
         for (int j= i+1; j < size; j++)
         {
            if(n[i]==n[j]){
             count++;
             n[j]=-1;
            }
+           
+           if (count>max) {max=n[i]; }
         }
+        printf("%d is highest repeating frequency is %d\n",n[i],max);
         printf("%d comes %d times\n",n[i],count);
     }
 
-    if ()
-    {
-        /* code */
-    }
+    
     
     
     
