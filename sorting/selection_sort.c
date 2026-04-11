@@ -1,4 +1,4 @@
- #include<stdio.h>
+#include<stdio.h>
 
 void swap (int *x,int *y)
 {
@@ -21,8 +21,6 @@ void selectionsort(int arr[],int n)
         }
 }
 
-
-
 int main()
 {
 	int arr[]={5,4,7,8,9,1};
@@ -32,11 +30,10 @@ int main()
 	for(int i=0;i<n;i++)
 		printf("%d ",arr[i]);		
 
-
 	selectionsort(arr,n);
 	printf("\n");
 	printf("sorted array :  \n");
-	
+
 		for(int i=0;i<n;i++)
 		printf("%d ",arr[i]);		
 	return 0;
