@@ -16,6 +16,5 @@ int main(){
         }
     }
         printf("2nd largest element - %d", n[size-2]);
-    
-    
 }
+//just sort whole array and print 2nd element by size-2

@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-     int n[5]={110,50,34,2,1};
+     int n[5]={110,50,34,20000,1};
      int ans;
     int size=sizeof(n)/sizeof(n[0]);
 
@@ -16,3 +16,4 @@ int main(){
     else{printf("rip array");}
     
 }
+// only one loop needed just two elements compare
