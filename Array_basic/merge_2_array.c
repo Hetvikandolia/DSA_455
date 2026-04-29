@@ -9,6 +9,7 @@ int main(){
     int ans[10];
     int k=0;
     
+    // first array ma duplicate remove and bakina add in new created array
     for (int  i = 0; i < size1; i++)
     {
         int found=0;
@@ -23,7 +24,7 @@ int main(){
         if(!found){ans[k] = n[i]; k++; } 
     }
     
-
+    // some process in array 2 add in new created array
     for (int  i = 0; i < size2; i++)
     {
         int found=0;
@@ -38,6 +39,7 @@ int main(){
         if(!found){ans[k] = m[i]; k++; } 
     }
 
+    //print all the elements 
     for (int i = 0; i < k; i++)
     {
         printf("%d ",ans[i]); }
