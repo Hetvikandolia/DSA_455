@@ -13,10 +13,8 @@ int main(){
 
         if(count>maxcount){maxcount = count;}
     }
-    
 
-    
-        printf("%d",maxcount);
-
-    
+        printf("%d",maxcount); 
 }
+
+// if we use max(a,b) function in c++ code advantage
